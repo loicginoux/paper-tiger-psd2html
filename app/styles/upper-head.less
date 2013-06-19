@@ -1,0 +1,62 @@
+///////////////////////////
+// upper navigation bar
+///////////////////////////
+#upper-head{
+	height:120px;
+	max-width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+	.no-media{
+		text-align: center;
+	}
+
+	ul{
+		display:block;
+		list-style-type: none;
+		margin: 10px 0 25px;
+	}
+	li:first-child{
+		margin-left: 0%;
+	}
+
+	li:last-child{
+		background: none;
+	}
+
+	li{
+		float:left;
+		margin-bottom: 2%;
+		overflow: visible;
+		margin-left: 1.5%;
+		width: 23.5%;
+		height: 80px;
+		background: url('/images/vertical-line.png') right top repeat-y;
+
+
+
+		h5{
+			margin-bottom: 5px
+		}
+
+		p{
+			font-size: 16px;
+			font-family: 'DidotBold', Georgia, sans-serif;
+			margin-right: 10px;
+			a{
+				color: @black;
+			}
+
+			a:hover{
+				color:@grayLight;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 979px) {
+	#upper-head{
+		text-align: center;
+	}
+}

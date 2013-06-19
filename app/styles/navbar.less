@@ -1,0 +1,67 @@
+///////////////////////////
+// Navigation bar
+///////////////////////////
+#header{
+	height: 60px;
+	overflow: visible;
+
+	.navbar-container{
+		max-width:1200px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	a.brand{
+		position: absolute;
+		z-index: 2000;
+		top: -22px;
+		left: 25px;
+
+		img{
+			width: 90px;
+		}
+	}
+
+	ul{
+		margin: 15px 0 15px 100px;
+		li:last-child{
+			background:none;
+		}
+		li{
+			height: 25px;
+			padding: 0 5px;
+			background: url('/images/vertical-dots.png') right top repeat-y;
+
+			a{
+				font-size: 21px;
+				font-family: Didot, Georgia, sans-serif;
+				display: inline;
+				color: @white;
+				line-height: 30px;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	form{
+		margin: 15px 0;
+		width: 26%;
+		.search-input{
+			overflow: hidden;
+    	padding: 0 .1em;
+			input{
+				width:100%;
+			}
+		}
+
+		button{
+			margin: 2px;
+			padding: 0;
+			width: 25px;
+			height: 25px;
+			background: url('/images/search.png') left top no-repeat;
+		}
+	}
+}
+
