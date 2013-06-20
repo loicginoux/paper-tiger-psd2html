@@ -15,8 +15,8 @@
 	a.brand{
 		position: absolute;
 		z-index: 2000;
-		top: -22px;
-		left: 25px;
+		top: -10px;
+		padding:0;
 
 		img{
 			width: 90px;
@@ -25,7 +25,7 @@
 
 	ul{
 		margin: 15px 0 15px 100px;
-		li:last-child{
+		li.last{
 			background:none;
 		}
 		li{
@@ -41,6 +41,9 @@
 				line-height: 30px;
 				text-transform: uppercase;
 			}
+			a:hover{
+				color: @grayLight;
+			}
 		}
 	}
 
@@ -49,7 +52,7 @@
 		width: 26%;
 		.search-input{
 			overflow: hidden;
-    	padding: 0 .1em;
+			padding: 0 .1em;
 			input{
 				width:100%;
 			}

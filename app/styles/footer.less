@@ -4,4 +4,76 @@
 
 #footer{
 	background-color: black;
+	padding: 20px 0;
+	color: @white;
+	position: relative;
+
+	.row-fluid{
+		max-width:1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer-left{
+		float:left;
+	}
+
+	.brand{
+		float:left;
+
+		top: 20px;
+		left: 25px;
+		img{
+			width: 60px;
+		}
+	}
+
+	p, a{
+		color:@white;
+		font-family: 'DidotBold', Georgia, sans-serif;
+	}
+
+	a:hover{
+		color: @grayLight;
+	}
+
+	p{
+		font-size: 12px;
+		line-height: 18px;
+		color: #a9a9a9;
+	}
+
+	ul{
+		margin: 10px 0 0 70px;
+		padding: 0;
+		list-style-type: none;
+	}
+	li{
+		float: left;
+		margin: 0;
+		padding: 0;
+		a {
+			display: block;
+			padding: 2px 9px;
+			font-size: 17px;
+
+			text-transform: uppercase;
+		}
+
+	}
+
+	.footer-sub-nav {
+		margin-left: 74px;
+		a{
+			padding: 2px 5px;
+			font-size: 13px;
+			color: #a9a9a9;
+			text-transform: none;
+		}
+	}
+
+	.footer-legal{
+		padding-top: 10px;
+		text-align: right;
+	}
 }

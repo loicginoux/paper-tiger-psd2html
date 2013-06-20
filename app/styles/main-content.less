@@ -2,6 +2,11 @@
 // Main content with 3 columns
 ///////////////////////////////
 .main-content{
+	max-width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 40px;
 	position:relative;
 
 	.left-main-col{
@@ -10,12 +15,318 @@
 		width: auto;
 	}
 
-	.static-side-bar{
-		position: absolute;
-		background-color: orange;
-		top: 0;
-		right: 0px;
-		width: 300px;
-		z-index: 10000;
+	.media{
+		margin-bottom:10px;
+	}
+
+	.media .pull-left{
+		margin-right: 25px;
+		width: 30%;
+	}
+	.news{
+		img{
+			height: auto;
+		}
+
+		p.category{
+			margin-bottom: 5px;
+		}
+
+		h2{
+			a:hover{
+				color: @grayLight;
+			}
+			a{
+				color: @black;
+			}
+		}
+	}
+
+	.metadata{
+		clear: both;
+		margin: 10px 0 35px 0;
+		background: url('/images/dotted-line.png') left top repeat-x;
+
+		p{
+			font-size: 13px;
+		}
+	}
+
+	.inside-meta{
+		padding: 10px 0 1px;
+	}
+
+	.social{
+		float: right;
+
+		.fb-like, .twitter, .pinterest{
+			display: inline;
+		}
+
+		.fb-like{
+			margin-right: 5px;
+		}
 	}
 }
+
+
+/////////////////////////
+// Middle column
+/////////////////////////
+.middle-bar{
+	text-align: center;
+	margin-top: 0px;
+}
+
+#read-this, #you-ask{
+	width: 63%;
+	padding: 50px 8% 0px;
+	margin: 0 8%;
+}
+
+#read-this{
+	background: @black url('/images/read-this-top.png') 50% 0 no-repeat;
+
+	h4{
+		font: 38px/33px 'DidotBold', Georgia, sans-serif;
+		color: @white;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	.media{
+		img{
+			width: 160px;
+			height: 105px;
+		}
+		margin: 25px 0 0;
+		padding-bottom: 20px;
+		background: url('/images/read-this-dots.png') 50% 0 no-repeat;
+	}
+
+	.media.last{
+		background: none;
+	}
+
+	.media-body{
+		margin-top: 15px;
+	}
+
+	.category{
+		margin: 0;
+	}
+	h5{
+		margin: 0;
+		a{
+			font: 13px/13px 'DidotBold', Georgia, sans-serif;
+			color: @white;
+		}
+		a:hover{
+			color: @grayLight;
+		}
+	}
+}
+
+#you-ask{
+	background: #5e5e5e url('/images/you-ask-top.png') 50% 0 no-repeat;
+	h4{
+		font: 35px/26px 'DidotBold', Georgia, sans-serif;
+		color: @white;
+		text-transform: uppercase;
+		span{
+			font-size: 25px;
+			line-height: 35px;
+		}
+	}
+	.category{
+		margin-bottom: 0;
+	}
+
+	.info{
+		color: @white;
+		font: 12px/14px 'DidotBold', Georgia, sans-serif;
+	}
+	.btn{
+		margin-bottom: 30px;
+	}
+	ul{
+		list-style: none;
+		margin: 0;
+	}
+
+	li{
+		padding-bottom: 20px;
+	}
+	h5{
+		margin: 0;
+		a{
+			color: @white;
+		}
+		a:hover{
+			color: @grayLight;
+		}
+	}
+
+	.answers{
+		margin-left: 28%;
+		padding-top: 2px;
+		height: 24px;
+		color: #b6b6b6;
+		text-align: left;
+		text-transform: uppercase;
+		p{
+			font: 10px/22px 'ProximaNovaLight', Arial, Helvetica, sans-serif;
+			line-height: 28px;
+			span{
+				background: url('/images/bubble.png') left top no-repeat;
+				width: 20px;
+				display: block;
+				text-align: center;
+				color: @black;
+				float: left;
+				padding-left: 3px;
+				margin-right: 5px;
+			}
+		}
+	}
+
+}
+.end-you-ask{
+	padding: 0;
+	width: 79%;
+	background: #ffffff url('/images/you-ask-bottom.png') 50% 100% no-repeat;
+	margin: 0 8% 30px;
+	height: 20px;
+	display: block;
+}
+
+
+////////////////////////////
+// right side static column
+////////////////////////////
+
+.static-side-bar{
+	position: absolute;
+	top: 0;
+	right: 20px;
+	width: 300px;
+	z-index: 10000;
+
+	.ads{
+		height:600px;
+		margin-bottom: 50px;
+
+		a{
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+
+.talking-about{
+	h4 {
+		font: 29px/42px 'Didot', Georgia, sans-serif;
+		color: #000;
+		border-bottom: 4px #000 solid;
+
+
+		span {
+			font: 35px/38px 'DidotItalic', 'Didot', Georgia, sans-serif;
+			text-transform: uppercase;
+		}
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+	}
+	li{
+		margin-top: 20px;
+		padding-bottom: 20px;
+		background: url('/images/dotted-line.png') 0 100% repeat-x;
+	}
+	li.last{
+		background: none;
+	}
+	img{
+		width:110px;
+		margin-right: 20px;
+	}
+
+	.category{
+		font-size: 9px;
+		margin-bottom: 0;
+		line-height: 15px;
+	}
+	h5{
+		margin: 0 0 10px;
+		font-family: 'Didot', Georgia, sans-serif;
+		a{
+			color:@black;
+		}
+		a:hover{
+			color: @grayLight;
+		}
+	}
+	.social{
+		float:none;
+	}
+}
+
+
+.style-guide{
+	background: #ececec url('/images/style-guide.png') 50% -10px no-repeat;
+	text-align: center;
+	margin-top: 34px;
+	padding: 20px 0 0;
+	h4 {
+		padding-bottom: 40px;
+		font: 33px/29px 'DidotBold', Georgia, sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.list{
+		margin: 0 20px;
+	}
+	h5{
+		margin: 20px 0 0;
+		font: 20px/29px 'DidotBold', Georgia, sans-serif;
+		text-transform: uppercase;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0 20px 15px 20px;
+		background: url('/images/dotted-line.png') 50% 100% repeat-x;
+	}
+	ul.last{
+		background: none;
+	}
+	li{
+		margin: 0;
+		padding: 0;
+		font: 11px/23px 'ProximaNovaReg', 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
+		color: #d06060;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #fff;
+	}
+
+	.view-all{
+		display: block;
+		background-color: @linkColor;
+		color: @white;
+		width: 100%;
+		height: 35px;
+		text-transform: uppercase;
+		font: 13px/40px 'DidotBold', Georgia, sans-serif;
+		.box-shadow(inset 0px 5px 10px rgba(0,0,0, 0.2));
+		text-shadow: 1px 1px 1px rgba(0,0,0, 0.3);
+
+	}
+	.view-all:hover{
+		background-color: #e64242;
+	}
+}
+

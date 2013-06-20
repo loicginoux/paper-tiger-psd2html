@@ -15,6 +15,26 @@
 
 @linkColor:             #ec6f6f;
 
+// mixins
+
+// bootstrap support only with one argument
+.box-shadow (@shadow, @shadow2) {
+  -webkit-box-shadow: @shadow, @shadow2;
+  -moz-box-shadow: @shadow, @shadow2;
+  box-shadow: @shadow, @shadow2;
+}
+
+.gradient (@startColor, @endColor) {
+  background-color: @startColor;
+  background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+  background: -webkit-linear-gradient(top, @startColor, @endColor);
+  background: -moz-linear-gradient(top, @startColor, @endColor);
+  background: -ms-linear-gradient(top, @startColor, @endColor);
+  background: -o-linear-gradient(top, @startColor, @endColor);
+  -pie-background: linear-gradient(@startColor, @endColor);
+}
+
+
 
 // Typo
 
@@ -35,7 +55,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-weight: inherit;
+  font: inherit;
 }
 h1 {
   margin-bottom: 12px;
@@ -87,10 +107,15 @@ a:focus {
   color: #cc4714;
   outline: none;
 }
-p,
+
+p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
 p a,
 p a:visited {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   font-family: 'ProximaNovaReg', 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
 }
 strong,
