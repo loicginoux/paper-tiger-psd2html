@@ -9107,63 +9107,63 @@ a.badge:focus {
   font-family: ProximaNovaReg;
   font-style: normal;
   font-weight: 400;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Regular.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Regular.otf);
 }
 
 @font-face {
   font-family: ProximaNovaSemi;
   font-style: normal;
   font-weight: 500;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Semibold.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Semibold.otf);
 }
 
 @font-face {
   font-family: ProximaNovaThin;
   font-style: normal;
   font-weight: 500;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Thin.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Thin.otf);
 }
 
 @font-face {
   font-family: ProximaNovaThinItalic;
   font-style: normal;
   font-weight: 500;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-ThinIt.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-ThinIt.otf);
 }
 
 @font-face {
   font-family: ProximaNovaBold;
   font-style: normal;
   font-weight: 400;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Bold.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Bold.otf);
 }
 
 @font-face {
   font-family: ProximaNovaLight;
   font-style: normal;
   font-weight: 400;
-  src: url(/styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Light.otf);
+  src: url(styles/fonts/Proxima/Proxima\ Nova/ProximaNova-Light.otf);
 }
 
 @font-face {
   font-family: Didot;
   font-style: normal;
   font-weight: 900;
-  src: url(/styles/fonts/didot/DidotLTStd-Roman.otf);
+  src: url(styles/fonts/didot/DidotLTStd-Roman.otf);
 }
 
 @font-face {
   font-family: DidotBold;
   font-style: normal;
   font-weight: 900;
-  src: url(/styles/fonts/didot/DidotLTStd-Bold.otf);
+  src: url(styles/fonts/didot/DidotLTStd-Bold.otf);
 }
 
 @font-face {
   font-family: DidotItalic;
   font-style: normal;
   font-weight: 900;
-  src: url(/styles/fonts/didot/DidotLTStd-Italic.otf);
+  src: url(styles/fonts/didot/DidotLTStd-Italic.otf);
 }
 
 .category {
@@ -9174,7 +9174,7 @@ a.badge:focus {
 }
 
 .bottom-dots {
-  background: url('/images/dotted-line.png') 0 100% repeat-x;
+  background: url('images/dotted-line.png') 0 100% repeat-x;
 }
 
 #upper-head {
@@ -9209,7 +9209,7 @@ a.badge:focus {
   margin-bottom: 2%;
   margin-left: 1.5%;
   overflow: visible;
-  background: url('/images/vertical-line.png') right top repeat-y;
+  background: url('images/vertical-line.png') right top repeat-y;
 }
 
 #upper-head li h5 {
@@ -9270,7 +9270,7 @@ a.badge:focus {
 #header ul li {
   height: 25px;
   padding: 0 5px;
-  background: url('/images/vertical-dots.png') right top repeat-y;
+  background: url('images/vertical-dots.png') right top repeat-y;
 }
 
 #header ul li a {
@@ -9305,7 +9305,7 @@ a.badge:focus {
   height: 25px;
   padding: 0;
   margin: 2px;
-  background: url('/images/search.png') left top no-repeat;
+  background: url('images/search.png') left top no-repeat;
 }
 
 #main-feature {
@@ -9500,7 +9500,7 @@ a.badge:focus {
 .main-content .metadata {
   margin: 10px 0 35px 0;
   clear: both;
-  background: url('/images/dotted-line.png') left top repeat-x;
+  background: url('images/dotted-line.png') left top repeat-x;
 }
 
 .main-content .metadata p {
@@ -9538,7 +9538,7 @@ a.badge:focus {
 }
 
 #read-this {
-  background: #000000 url('/images/read-this-top.png') 50% 0 no-repeat;
+  background: #000000 url('images/read-this-top.png') 50% 0 no-repeat;
 }
 
 #read-this h4 {
@@ -9551,7 +9551,7 @@ a.badge:focus {
 #read-this .media {
   padding-bottom: 20px;
   margin: 25px 0 0;
-  background: url('/images/read-this-dots.png') 50% 0 no-repeat;
+  background: url('images/read-this-dots.png') 50% 0 no-repeat;
 }
 
 #read-this .media img {
@@ -9585,7 +9585,7 @@ a.badge:focus {
 }
 
 #you-ask {
-  background: #5e5e5e url('/images/you-ask-top.png') 50% 0 no-repeat;
+  background: #5e5e5e url('images/you-ask-top.png') 50% 0 no-repeat;
 }
 
 #you-ask h4 {
@@ -9655,7 +9655,7 @@ a.badge:focus {
   margin-right: 5px;
   color: #000000;
   text-align: center;
-  background: url('/images/bubble.png') left top no-repeat;
+  background: url('images/bubble.png') left top no-repeat;
 }
 
 .end-you-ask {
@@ -9664,7 +9664,7 @@ a.badge:focus {
   height: 20px;
   padding: 0;
   margin: 0 8% 30px;
-  background: #ffffff url('/images/you-ask-bottom.png') 50% 100% no-repeat;
+  background: #ffffff url('images/you-ask-bottom.png') 50% 100% no-repeat;
 }
 
 .static-side-bar {
@@ -9705,7 +9705,7 @@ a.badge:focus {
 .talking-about li {
   padding-bottom: 20px;
   margin-top: 20px;
-  background: url('/images/dotted-line.png') 0 100% repeat-x;
+  background: url('images/dotted-line.png') 0 100% repeat-x;
 }
 
 .talking-about li.last {
@@ -9744,7 +9744,7 @@ a.badge:focus {
   padding: 20px 0 0;
   margin-top: 34px;
   text-align: center;
-  background: #ececec url('/images/style-guide.png') 50% -10px no-repeat;
+  background: #ececec url('images/style-guide.png') 50% -10px no-repeat;
 }
 
 .style-guide h4 {
@@ -9768,7 +9768,7 @@ a.badge:focus {
   padding: 0 20px 15px 20px;
   margin: 0;
   list-style-type: none;
-  background: url('/images/dotted-line.png') 50% 100% repeat-x;
+  background: url('images/dotted-line.png') 50% 100% repeat-x;
 }
 
 .style-guide ul.last {
