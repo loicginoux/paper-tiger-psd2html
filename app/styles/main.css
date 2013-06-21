@@ -9314,6 +9314,7 @@ a.badge:focus {
 
 #main-feature .feature {
   position: relative;
+  min-height: 200px;
 }
 
 #main-feature .info {
