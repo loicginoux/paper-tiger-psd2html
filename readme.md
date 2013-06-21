@@ -12,11 +12,11 @@ Restrictions for the exercice:
 
 Tools
 ------
-The project uses Yeoman (with grunt and bower) for deployment and package management.
+The project uses Yeoman (with grunt and bower) for deployment and package management and less.js for styling.
 
 Support
 -------
-Tested on ie8, 9, firefox, chrome and safari.
+Tested on ie8, 9, iphone, android, ipad, firefox, chrome and safari.
 
 
 How I could have gone further?
@@ -26,5 +26,7 @@ How I could have gone further?
 - change all css background images to base64 to send less http request to server.
 - using sprites for css images. This example didn't have much css background images so I just left it like it was.
 - make some javascript animation.
+- remove unused css files from Bootstrap.
+
 
 
