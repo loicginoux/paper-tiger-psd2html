@@ -9089,7 +9089,7 @@ a.badge:focus {
 
 .pagination ul li a,
 .pagination ul li span {
-  padding: 0 6px;
+  padding: 0 6px 10px;
   margin: 0;
   font-family: 'DidotBold', Georgia, sans-serif;
   font-size: 22px;
@@ -9504,15 +9504,16 @@ a.badge:focus {
 }
 
 .main-content .metadata p {
+  float: left;
   font-size: 13px;
 }
 
 .main-content .inside-meta {
-  padding: 10px 0 1px;
+  padding: 10px 0 5px;
 }
 
 .main-content .social {
-  float: right;
+  text-align: right;
 }
 
 .main-content .social .fb-like,
@@ -9693,7 +9694,7 @@ a.badge:focus {
 }
 
 .talking-about h4 span {
-  font: 35px/38px 'DidotItalic', 'Didot', Georgia, sans-serif;
+  font: 34px/38px 'DidotItalic', 'Didot', Georgia, sans-serif;
   text-transform: uppercase;
 }
 
@@ -9887,6 +9888,25 @@ a.badge:focus {
   #header {
     height: auto;
   }
+  #header .nav-collapse ul {
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+  #header .nav-collapse ul li {
+    margin: 15px 0;
+    background: none;
+  }
+  #header .nav-collapse ul li a {
+    height: 100%;
+  }
+  #header .nav-collapse ul li a:hover {
+    background: none;
+  }
+  #header .nav-collapse form {
+    width: 95%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
   #header .navbar .brand {
     top: -20px;
     left: 0;
@@ -9919,11 +9939,17 @@ a.badge:focus {
   .container-fluid {
     padding: 0 20px;
   }
+  #main-feature .feature {
+    min-height: 200px;
+  }
+  #main-feature .feature img {
+    min-height: 200px;
+  }
   #main-feature .info h2 a {
-    font-size: 35px;
+    font-size: 30px;
   }
   #main-feature .info p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   #main-feature ul li {
     width: 100%;
