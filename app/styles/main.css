@@ -9713,6 +9713,10 @@ a.badge:focus {
   background: none;
 }
 
+.talking-about .pull-left a {
+  display: block;
+}
+
 .talking-about img {
   width: 110px;
   margin-right: 20px;
