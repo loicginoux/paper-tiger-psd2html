@@ -9251,12 +9251,11 @@ a.badge:focus {
 #header a.brand {
   position: absolute;
   top: -10px;
+  left: 45px;
   z-index: 2000;
-  padding: 0;
-}
-
-#header a.brand img {
   width: 90px;
+  height: 90px;
+  padding: 0;
 }
 
 #header ul {
@@ -9819,16 +9818,15 @@ a.badge:focus {
 
 #footer .footer-left {
   float: left;
+  max-width: 50%;
 }
 
 #footer .brand {
   top: 20px;
   left: 25px;
   float: left;
-}
-
-#footer .brand img {
   width: 60px;
+  height: 60px;
 }
 
 #footer p,
